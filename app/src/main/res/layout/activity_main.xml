@@ -7,12 +7,48 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/main_txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <EditText
+        android:id="@+id/main_txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/main_txtTitulo"
+        app:layout_constraintStart_toStartOf="@+id/main_txtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/main_txtTitulo" />
+
+    <EditText
+        android:id="@+id/main_txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/main_txtUser"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/main_txtUser"
+        app:layout_constraintTop_toBottomOf="@+id/main_txtUser" />
+
+    <Button
+        android:id="@+id/main_btnAcceder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/main_txtPassword"
+        app:layout_constraintStart_toStartOf="@+id/main_txtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/main_txtPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

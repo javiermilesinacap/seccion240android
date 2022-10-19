@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657890164719",
+    "project_id": "seccion240ina",
+    "storage_bucket": "seccion240ina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657890164719:android:953d511f28a617b198001a",
+        "android_client_info": {
+          "package_name": "com.example.appventas240"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657890164719-udhg66bd6gnomkm9bh6okm1u1b72pgpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2KYC67WwfTFk0U5y8kd2uM_D3l1ucX9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657890164719-udhg66bd6gnomkm9bh6okm1u1b72pgpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
