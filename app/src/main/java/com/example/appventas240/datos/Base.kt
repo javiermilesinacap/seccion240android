@@ -18,7 +18,7 @@ class Base(context: Context, nombre: String?, factory: CursorFactory?, version: 
           val COLUMN_CANTIDAD = "cantidad"
       }
     override fun onCreate(p0: SQLiteDatabase?) {
-        val sql = "CREATE TABLE $TABLA_PRODUCTO($COLUMN_ID PRIMARY KEY, $COLUMN_NOMBREPRODUCTIO TEXT, $COLUMN_CANTIDAD INTEGER)"
+        val sql = "CREATE TABLE $TABLA_PRODUCTO($COLUMN_ID INTEGER PRIMARY KEY AUTOINCREMENT, $COLUMN_NOMBREPRODUCTIO TEXT, $COLUMN_CANTIDAD INTEGER)"
         if (p0 != null) {
             p0.execSQL(sql)
         }
